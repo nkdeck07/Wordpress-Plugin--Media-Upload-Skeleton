@@ -1,0 +1,60 @@
+/* CSS to fix the rendering of the tabs*/
+
+div#media-upload-header, div#plugin-information-header {
+	background-color: #F9F9F9;
+	border-bottom-color: #DFDFDF;
+}
+
+div#media-upload-header {
+	margin: 0;
+	padding: 5px 5px 0;
+	font-weight: bold;
+	position: relative;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+body#media-upload ul#sidemenu {
+	font-weight: normal;
+	margin: 0 5px;
+	left: 0;
+	bottom: -1px;
+	float: none;
+	overflow: hidden;
+}
+
+#sidemenu{
+	margin: -30px 15px 0 315px;
+	list-style: none;
+	position: relative;
+	float: right;
+	padding-left: 10px;
+	font-size: 12px;
+}
+
+#sidemenu li {
+	display: inline;
+	line-height: 200%;
+	list-style: none;
+	text-align: center;
+	white-space: nowrap;
+	margin: 0;
+	padding: 0;
+}
+
+#sidemenu a {
+	background-color: #F9F9F9;
+	border-color: #F9F9F9;
+	border-bottom-color: #DFDFDF;
+}
+
+#sidemenu a {
+	padding: 0 7px;
+	display: block;
+	float: left;
+	line-height: 28px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
